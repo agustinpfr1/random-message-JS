@@ -1,4 +1,4 @@
-let randomizedMessage = {
+let prediction = {
     subjects: ["Someone you know", "A new person", "Someone close to you", "An ex friend", "A close friend", "A relative", "A stranger"],
     futures: ["is going to", "might", "could", "will try to"],
     actions: ["poke you with", "damage you with", "assassinate you with", "tell you about", "make you cry about", "fight with you for"],
@@ -14,4 +14,4 @@ let randomizedMessage = {
 }
 
 
-console.log(randomizedMessage.buildRandomPhrase(randomizedMessage.subjects, randomizedMessage.futures, randomizedMessage.actions, randomizedMessage.objects))
+console.log(prediction.buildRandomPhrase(prediction.subjects, prediction.futures, prediction.actions, prediction.objects));

@@ -1,4 +1,5 @@
-# random-message-JS
+This program may predict something disturbing about your future...
+==================================================================
 
 ## Description
 
